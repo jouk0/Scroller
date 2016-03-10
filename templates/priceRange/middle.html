@@ -1,0 +1,5 @@
+<div class="pricePerHour" ng-repeat="item in items" ng-controller="pricePerHourRepeaterCtrl" ng-class="priceRowToHereClass(item, 'Bottom')">
+    <span ng-bind="item.scrollItem"></span>
+    <span ng-bind="item.scrollItemEnd"></span>
+    <sub ng-bind="item.scrollItemInfo"></sub>
+</div>

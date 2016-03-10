@@ -1,0 +1,28 @@
+{
+  "name": "scroller",
+  "authors": [
+    "phz-developers <phz@phz.fi>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-touch": "^1.5.0",
+    "angular-websql": "https://github.com/paulocaldeira17/angular-websql.git#^1.0.2",
+    "jquery": "^2.2.1"
+  }
+}

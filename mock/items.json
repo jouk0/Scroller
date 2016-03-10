@@ -1,0 +1,63 @@
+[
+    {
+        "scrollItem": 0,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 0,
+        "minutes": 60
+    },{
+        "scrollItem": 1,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 100,
+        "minutes": 60
+    },{
+        "scrollItem": 2,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 200,
+        "minutes": 60
+    },{
+        "scrollItem": 3,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 300,
+        "minutes": 60
+    },{
+        "scrollItem": 4,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 400,
+        "minutes": 60
+    },{
+        "scrollItem": 5,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 500,
+        "minutes": 60
+    },{
+        "scrollItem": 6,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 600,
+        "minutes": 60
+    },{
+        "scrollItem": 7,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 700,
+        "minutes": 60
+    },{
+        "scrollItem": 8,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 800,
+        "minutes": 60
+    },{
+        "scrollItem": 9,
+        "scrollItemInfo": "/per/hour",
+        "scrollItemEnd":"€",
+        "perHour": 900,
+        "minutes": 60
+    }
+]

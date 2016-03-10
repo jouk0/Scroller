@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: sans-serif;
+}
+.swiperDiper {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 300px;
+	position: relative;
+}
+.swiperDonge {
+	position: absolute;
+	height:58px;
+	width: 148px;
+	border:1px solid grey;
+}
+.priceRange {
+	display: block;
+	float: left;
+	width: 100px;
+	padding: 0 25px;
+}
+.pricePerHour {
+	display: block;
+	float: left;
+	width: 100%;
+	height:60px;
+	text-align: center;
+}

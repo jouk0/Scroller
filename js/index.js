@@ -1,0 +1,1 @@
+var scroller = angular.module("scroller", ["ngTouch", "angular-websql"]);

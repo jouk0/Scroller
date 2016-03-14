@@ -8,9 +8,9 @@ scroller.controller("priceRangeWrapperCtrl", function($scope, $http, $compile, L
             pricePerHoursHeight = (pricePerHour !== undefined) ? pricePerHour.height()+parseInt(pricePerHour.css("border-bottom-width").replace("px", "")) : 0,
             rollHeight = pPH.length * pricePerHoursHeight - pricePerHoursHeight;
 
-        $(".priceRange .bottom").css("bottom", - rollHeight);
-        $(".priceRange .top").css("top", - rollHeight);
-        $(".priceRange .topMiddle").css("top", - (rollHeight * 2));
+        $scope.swiperContentElem.find(".priceRange .bottom").css("bottom", - rollHeight);
+        $scope.swiperContentElem.find(".priceRange .top").css("top", - rollHeight);
+        $scope.swiperContentElem.find(".priceRange .topMiddle").css("top", - (rollHeight * 2));
     };
     $scope.updateStartPosition = function(newPosition) {
         $scope.swiperContent.attr("data-startPosition", newPosition);

@@ -9,7 +9,7 @@ scroller.controller("baseCtrl", function($scope, LocalStorage) {
     } else {
         LocalStorage.update('scrollerData' + $scope.$id, scrollerData);
     }
-    console.log("LocalStorage.get('scrollerData')", LocalStorage.get('scrollerData'));
+
 })
 .directive('myBase', function() {
     return { 

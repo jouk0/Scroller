@@ -17,8 +17,6 @@ scroller.controller("priceRangeWrapperCtrl", function($scope, $http, $compile, L
         LocalStorage.update('scrollerData' + $scope.$parent.$parent.$id, {
             scrollerPosition : newPosition
         });
-        console.log("$scope", $scope.$parent.$parent.$id);
-        console.log("scrollerData", LocalStorage.get('scrollerData' + $scope.$parent.$parent.$id));
         $scope.currentPosition = newPosition;
     };
     

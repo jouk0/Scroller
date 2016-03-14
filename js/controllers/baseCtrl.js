@@ -1,12 +1,13 @@
 
-scroller.controller("baseCtrl", function($scope, $webSql, LocalStorage) {
+scroller.controller("baseCtrl", function($scope, LocalStorage) {
     var scrollerData = {
         scrollerPosition : parseInt($("div.swiperContent").attr("data-startPosition"))
     };
-    if(LocalStorage.get('scrollerData') === undefined) {
-        LocalStorage.set('scrollerData', scrollerData);
+    console.log("$scope", $scope.$id);
+    if(LocalStorage.get('scrollerData' + $scope.$id) === undefined) {
+        LocalStorage.set('scrollerData' + $scope.$id, scrollerData);
     } else {
-        LocalStorage.update('scrollerData', scrollerData);
+        LocalStorage.update('scrollerData' + $scope.$id, scrollerData);
     }
     console.log("LocalStorage.get('scrollerData')", LocalStorage.get('scrollerData'));
 })

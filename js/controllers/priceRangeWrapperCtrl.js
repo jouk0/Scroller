@@ -14,10 +14,11 @@ scroller.controller("priceRangeWrapperCtrl", function($scope, $http, $compile, L
     };
     $scope.updateStartPosition = function(newPosition) {
         $scope.swiperContent.attr("data-startPosition", newPosition);
-        LocalStorage.update('scrollerData', {
+        LocalStorage.update('scrollerData' + $scope.$parent.$parent.$id, {
             scrollerPosition : newPosition
         });
-        console.log("scrollerData", LocalStorage.get('scrollerData'));
+        console.log("$scope", $scope.$parent.$parent.$id);
+        console.log("scrollerData", LocalStorage.get('scrollerData' + $scope.$parent.$parent.$id));
         $scope.currentPosition = newPosition;
     };
     

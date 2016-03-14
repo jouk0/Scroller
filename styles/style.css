@@ -189,7 +189,7 @@ html, body {
 	-ms-user-select: none;
 	user-select: none;
 }
-
+/*
 .pricePerHour.moveHereBottom,
 .pricePerHour.moveHereTop {
     background: red;
@@ -198,7 +198,7 @@ html, body {
 .pricePerHour.toHereTop {
     background: blue;
 }
-
+*/
 .pricePerHour sub {
 	position: absolute;
 	right: 0.4167em;

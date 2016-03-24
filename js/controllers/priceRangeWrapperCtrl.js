@@ -294,6 +294,7 @@ scroller.controller("priceRangeWrapperCtrl", function($scope, $http, $compile, L
     ItemsFactory.createDB();
     ItemsFactory.getRemoteData();
     ItemsFactory.selectAllData();
+    console.log(ItemsFactory)
 
     return ItemsFactory;
 
